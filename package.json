@@ -1,0 +1,24 @@
+{
+  "name": "discord-utility-commands",
+  "version": "1.0.0",
+  "description": "Utility commands for a Discord bot (TypeScript)",
+  "main": "dist/app.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "dev": "ts-node-dev --respawn --transpile-only src/app.ts"
+  },
+  "author": "EMEny-art",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2",
+    "@types/node": "^20.5.1"
+  }
+}
